@@ -1,0 +1,21 @@
+# EEG Attention Analysis
+
+This project analyzes EEG data to identify neural signatures of attention.
+
+## Project Overview
+- Compare EEG during rest vs task (mental arithmetic)
+- Extract band power features (theta, alpha, beta)
+- Evaluate statistical differences using bootstrap confidence intervals
+- Build classification models to detect attention states
+
+## Key Findings (so far)
+- Alpha power shows a consistent decrease during task engagement
+- Theta shows weak or inconsistent effects
+- Beta shows a small but consistent decrease
+
+## Dataset
+- PhysioNet EEG During Mental Arithmetic Tasks
+
+## Next Steps
+- Build classification model
+- Test generalization on second dataset
